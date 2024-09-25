@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBL Smart Bots</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="android-loader" id="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="homepage" class="content">
+        <h1 id="dynamicGreeting"></h1>
+        <div id="botList" class="bot-list">
+            <!-- Dynamically generated bots will appear here -->
+        </div>
+    </div>
+
+    <!-- Floating Action Button (FAB) -->
+    <div id="fab" class="fab">
+        <i class="fas fa-plus"></i>
+        <ul class="fab-options">
+            <li id="fabOrder"><i class="fas fa-shopping-cart"></i> Order Bot</li>
+            <li id="fabAbout"><i class="fas fa-info-circle"></i> About Us</li>
+            <li id="fabSettings"><i class="fas fa-cog"></i> Settings</li>
+            <li id="fabHelp"><i class="fas fa-question-circle"></i> Help</li>
+        </ul>
+    </div>
+</body>
+</html>
